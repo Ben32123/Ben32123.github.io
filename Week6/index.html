@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mock Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <div class="post">
+
+            <div class="top-bar">
+
+                <div id="profileArea">
+                    <h3>@benkim</h3>
+
+                    <div id="profileCard">
+                        <img src="assets/profile.jpeg" alt="profile">
+                        <p>Ben Kim</p>
+                        <p>Photographer and student.</p>
+                    </div>
+                </div>
+
+                <button id="themeButton">Toggle Theme</button>
+
+            </div>
+
+            <img class="post-image" src="assets/post.jpeg" alt="post">
+
+            <div class="buttons">
+
+                <button id="likeButton">Like</button>
+                <p id="likeCount">Likes: 0</p>
+
+            </div>
+
+            <div class="comment-section">
+
+                <input type="text" id="commentInput" placeholder="Write a comment">
+
+                <button id="commentButton">Submit Comment</button>
+
+                <button id="toggleComments">Show/Hide Comments</button>
+
+                <div id="comments"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
